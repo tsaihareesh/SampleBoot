@@ -12,7 +12,7 @@ public class Application {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
 
-        System.out.println("Let's inspect the beans pred by Spring Boot:");
+        System.out.println("Let's in git inspect the beans pred by Spring Boot:");
 
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
